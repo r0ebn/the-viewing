@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@hyper-elements/email-clients": "^0.4.16",
+    "@hyper-elements/react": "^0.4.6",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satori": "^0.33.5"
+  },
+  "description": "The Viewing \u2014 an open-house kit for a fictional estate agency, built with Hyper Elements around a room-data engine that draws its own floor plan.",
+  "devDependencies": {
+    "@fontsource/fraunces": "^5.2.5",
+    "@fontsource/inter": "^5.2.5",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "license": "MIT",
+  "name": "the-viewing",
+  "private": true,
+  "scripts": {
+    "build": "tsx scripts/build.tsx",
+    "screenshots": "tsx scripts/screenshot.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
